@@ -1,6 +1,6 @@
 # Banking API Demo
 
-This [Rails](http://rubyonrails.org) application demonstrates the capabilities of Banking APIs powered by the [fidor_api](https://github.com/fidor/fidor_api) ruby library.
+This [Rails](http://rubyonrails.org) application demonstrates the capabilities of Banking APIs powered by the [fidor_api](https://github.com/Fidor-FZCO/fidor_api) ruby library.
 This app has a UI that allows the users to login and fetch an access token. Using the access token, the users can fetch all transaction details.
 
 ## Register a new Application in the  App-Manager
