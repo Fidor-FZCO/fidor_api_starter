@@ -17,10 +17,10 @@ Get the following information from App Details page
 
 
 Create a .env file in the root directory of your app and mention the env variables:
-FIDOR_OAUTH_URL -  Fidor Oauth URL obtained above
-FIDOR_API_URL - Fidor API URL obtained above
-FIDOR_API_PATH - API path mentioned in API doc
-FIDOR_API_CALLBACK - {{App_url}}/auth/callback
-FIDOR_API_CLIENT_ID - Client ID obtained above
-FIDOR_API_CLIENT_SECRET - Client Secret obtained above
-FIDOR_API_LOGGING - 'true'
+* FIDOR_OAUTH_URL -  Fidor Oauth URL obtained above
+* FIDOR_API_URL - Fidor API URL obtained above
+* FIDOR_API_PATH - API path mentioned in API doc
+* FIDOR_API_CALLBACK - {{App_url}}/auth/callback
+* FIDOR_API_CLIENT_ID - Client ID obtained above
+* FIDOR_API_CLIENT_SECRET - Client Secret obtained above
+* FIDOR_API_LOGGING - 'true'
