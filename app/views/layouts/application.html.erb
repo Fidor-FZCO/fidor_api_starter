@@ -1,0 +1,15 @@
+<% content_for :body do %>
+  <%= render "navbar" %>
+
+  <div class="container">
+    <%= render "navigation" if logged_in? %>
+
+    <%= render "flash" %>
+
+    <%= yield %>
+
+    <%= render "footer" %>
+  </div>
+<% end %>
+
+<%= render template: "layouts/application_base" %>
