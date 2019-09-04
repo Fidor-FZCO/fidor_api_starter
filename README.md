@@ -12,7 +12,7 @@ To access the Banking API you need to register for an account in App Manager and
 Get the following information from App Details page 
 * Client ID - From App Manager
 * Client Secret - From App Manager
-* Fidor OAuth URL - From App Manager
+* Fidor OAuth URL - From App Manager - Remove the /oauth path suffix if its present. The fidor_api gem takes of appending the suffix.
 * Fidor API URL - From API Doc / App Manager
 
 
