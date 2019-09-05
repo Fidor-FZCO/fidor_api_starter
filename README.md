@@ -9,6 +9,8 @@ To access the Banking API you need to register for an account in App Manager and
 * Mention the app url as this apps' url,
 * Mention the callback url as {{app_url}}/auth/callback
 
+In your local environment, the app_url might be localhost:{{port_number}}. Choose a port number before creating the app in app manager.
+
 Get the following information from App Details page 
 * Client ID - From App Manager
 * Client Secret - From App Manager
@@ -24,3 +26,7 @@ Create a .env file in the root directory of your app and mention the env variabl
 * FIDOR_API_CLIENT_ID - Client ID obtained above
 * FIDOR_API_CLIENT_SECRET - Client Secret obtained above
 * FIDOR_API_LOGGING - 'true'
+
+After creating the environment, run the app. <br>
+In your local environment, run as <br>
+bundle exec rails -p port_number
