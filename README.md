@@ -27,6 +27,8 @@ Create a .env file in the root directory of your app and mention the env variabl
 * FIDOR_API_CLIENT_SECRET - Client Secret obtained above
 * FIDOR_API_LOGGING - 'true'
 
-After creating the environment, run the app. <br>
-In your local environment, run as <br>
+After creating the environment, run the app. In your local environment, run as <br>
+```sh
+bundle install
 bundle exec rails -p port_number
+```
