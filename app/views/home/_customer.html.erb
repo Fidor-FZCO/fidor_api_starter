@@ -5,7 +5,7 @@
     <h6 class="card-subtitle mb-2 text-muted">Details</h6>
     <hr />
     <dl class="row mb-0">
-      <dt class="col-sm-5">Fidor ID</dt>
+      <dt class="col-sm-5">Account ID</dt>
       <dd class="col-sm-7"><%= current_customer.id %></dd>
 
       <dt class="col-sm-5">Firstname</dt>
@@ -13,15 +13,6 @@
 
       <dt class="col-sm-5">Lastname</dt>
       <dd class="col-sm-7"><%= current_customer.last_name %></dd>
-
-      <dt class="col-sm-5">Street / Street-No.</dt>
-      <dd class="col-sm-7"><%= current_customer.adr_street %> <%= current_customer.adr_street_number %></dd>
-
-      <dt class="col-sm-5">ZIP-Code / City</dt>
-      <dd class="col-sm-7"><%= current_customer.adr_post_code %> <%= current_customer.adr_city %></dd>
-
-      <dt class="col-sm-5">Country</dt>
-      <dd class="col-sm-7"><%= current_customer.adr_country %></dd>
     </dl>
   </div>
 </div>
