@@ -31,6 +31,7 @@ Example: FIDOR_API_URL="http://api.com"
 
 After creating the environment, run the app. In your local environment, run as <br>
 ```sh
+gem install bundler
 bundle install
 bundle exec rails -p port_number
 ```
