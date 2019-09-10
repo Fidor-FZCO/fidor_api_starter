@@ -15,7 +15,7 @@ In your local environment, the app_url might be localhost:{{port_number}}. Choos
 Get the following information from App Details page in App Manager / API doc
 * Client ID - From App Manager
 * Client Secret - From App Manager
-* Fidor OAuth URL - From App Manager - Remove the /oauth path suffix if its present. The fidor_api gem takes of appending the suffix.
+* Fidor OAuth URL - From App Manager - Remove the /oauth path suffix if its present. The fidor_api gem takes care of appending the suffix.
 * Fidor API URL - From API Doc / App Manager
 
 
