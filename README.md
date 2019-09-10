@@ -33,5 +33,5 @@ After creating the environment, run the app. In your local environment, run as <
 ```sh
 gem install bundler
 bundle install
-bundle exec rails -p port_number
+bundle exec rails s -p port_number
 ```
