@@ -5,14 +5,14 @@ This app has a UI that allows the users to login and fetch an access token. Usin
 
 ## Register a new Application in App Manager
 
-To access the Banking API you need to register for an account in App Manager and create a new application in order to get the following information. While registering the app, 
+To access the Banking API you need to register for an account in App Manager and create a new application. While registering the app, 
 * Mention the app url as this apps' url,
 * Mention the callback url as {{app_url}}/auth/callback
-* Select basic read/write Banking permissions.
+* Select Basic read-write Banking permissions.
 
 In your local environment, the app_url might be localhost:{{port_number}}. Choose a port number before creating the app in app manager.
 
-Get the following information from App Details page 
+Get the following information from App Details page in App Manager / API doc
 * Client ID - From App Manager
 * Client Secret - From App Manager
 * Fidor OAuth URL - From App Manager - Remove the /oauth path suffix if its present. The fidor_api gem takes of appending the suffix.
