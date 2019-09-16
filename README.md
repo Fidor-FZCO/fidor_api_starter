@@ -19,7 +19,7 @@ Get the following information from App Details page in App Manager / API doc
 * Fidor API URL - From API Doc / App Manager
 
 
-Create a .env file in the root directory of the app and mention the env variables:
+Edit the .env file in the root directory of the app and update the env variables:
 * FIDOR_OAUTH_URL -  Fidor Oauth URL obtained above
 * FIDOR_API_URL - Fidor API URL obtained above
 * FIDOR_API_PATH - API path mentioned in API doc
@@ -27,8 +27,6 @@ Create a .env file in the root directory of the app and mention the env variable
 * FIDOR_API_CLIENT_ID - Client ID obtained above
 * FIDOR_API_CLIENT_SECRET - Client Secret obtained above
 * FIDOR_API_LOGGING - 'true'
-
-<b> Refer to the .env variable present in the starter app. </b>
 
 After creating the environment, run the app. In your local environment, run as <br>
 ```sh
