@@ -10,7 +10,7 @@ To access the Banking API you need to register for an account in App Manager and
 * Mention the callback url as {{app_url}}/auth/callback
 * Select Basic read-write Banking permissions.
 
-In your local environment, the app_url might be localhost:{{port_number}}. Choose a port number before creating the app in app manager.
+<b> In your local environment, the app_url might be localhost:{{port_number}}. Choose a port number before creating the app in app manager. <b>
 
 Get the following information from App Details page in App Manager / API doc
 * Client ID - From App Manager
@@ -19,7 +19,7 @@ Get the following information from App Details page in App Manager / API doc
 * Fidor API URL - From API Doc / App Manager
 
 
-Create a .env file in the root directory of your app and mention the env variables:
+Create a .env file in the root directory of the app and mention the env variables:
 * FIDOR_OAUTH_URL -  Fidor Oauth URL obtained above
 * FIDOR_API_URL - Fidor API URL obtained above
 * FIDOR_API_PATH - API path mentioned in API doc
@@ -28,8 +28,7 @@ Create a .env file in the root directory of your app and mention the env variabl
 * FIDOR_API_CLIENT_SECRET - Client Secret obtained above
 * FIDOR_API_LOGGING - 'true'
 
-Format of the env variables:
-Example: FIDOR_API_URL="http://api.com"
+<b> Refer to the .env variable present in the starter app. </b>
 
 After creating the environment, run the app. In your local environment, run as <br>
 ```sh
