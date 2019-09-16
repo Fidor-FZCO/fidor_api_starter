@@ -10,7 +10,7 @@ To access the Banking API you need to register for an account in App Manager and
 * Mention the callback url as {{app_url}}/auth/callback
 * Select Basic read-write Banking permissions.
 
-<b> In your local environment, the app_url might be localhost:{{port_number}}. Choose a port number before creating the app in app manager. <b>
+<b> In your local environment, the app_url might be localhost:{{port_number}}. Choose a port number before creating the app in app manager. </b>
 
 Get the following information from App Details page in App Manager / API doc
 * Client ID - From App Manager
