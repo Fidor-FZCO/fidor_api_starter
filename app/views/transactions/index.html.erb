@@ -8,24 +8,20 @@
       </colgroup>
       <tr>
         <th>
-          Booking Date<br />
-          <small>Value Date</small>
+          Date<br />
         </th>
         <th>
           Subject<br />
-          <small>Type</small>
         </th>
         <th class="text-right">Amount</th>
       </tr>
       <% @transactions.each do |t| %>
         <tr>
           <td>
-            <%= l t.booking_date.to_date rescue "-" %><br />
-            <small class="text-muted"><%= l t.value_date.to_date rescue "-" %></small>
+            <%= l t.created_at.to_datetime rescue "-" %><br />
           </td>
           <td>
-            <%= link_to t.subject, t %><br />
-            <small class="text-muted"><%= t.transaction_type %></small>
+            <%= t.subject %><br />
           </td>
           <td class="align-middle text-right"><%= format_currency t.amount %></td>
         </tr>
