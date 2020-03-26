@@ -13,6 +13,8 @@
     "webpack-dev-server": "^3.8.0"
   },
   "resolutions": {
+    "@rails/webpacker#babel-loader#mkdirp#minimist": ">=1.2.5",
     "@rails/webpacker#compression-webpack-plugin#serialize-javascript": ">=2.1.1"
+    
   }
 }
