@@ -5,16 +5,17 @@
     "@rails/actioncable": "^6.0.0-alpha",
     "@rails/activestorage": "^6.0.0-alpha",
     "@rails/ujs": "^6.0.0-alpha",
-    "@rails/webpacker": "^4.0.7",
-    "turbolinks": "^5.2.0"
+    "@rails/webpacker": "^4.2.2",
+    "turbolinks": "^5.2.0",
+    "postcss-selector-parser": "^6.0.2"
   },
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.8.0"
   },
   "resolutions": {
+    "dot-prop": "^5.1.1",
     "@rails/webpacker#babel-loader#mkdirp#minimist": ">=1.2.5",
-    "@rails/webpacker#compression-webpack-plugin#serialize-javascript": ">=3.1.0",
-    "@rails/webpacker#optimize-css-assets-webpack-plugin#cssnano#cssnano-preset-default#postcss-merge-rules#postcss-selector-parser#dot-prop": ">=5.1.1"
+    "@rails/webpacker#compression-webpack-plugin#serialize-javascript": ">=3.1.0"
   }
 }
