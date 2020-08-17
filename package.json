@@ -15,6 +15,6 @@
   "resolutions": {
     "@rails/webpacker#babel-loader#mkdirp#minimist": ">=1.2.5",
     "@rails/webpacker#compression-webpack-plugin#serialize-javascript": ">=3.1.0",
-    "dot-prop": ">=5.1.1"
+    "@rails/webpacker#optimize-css-assets-webpack-plugin#cssnano#cssnano-preset-default#postcss-merge-rules#postcss-selector-parser#dot-prop": ">=5.1.1"
   }
 }
