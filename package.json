@@ -10,9 +10,6 @@
     "postcss-selector-parser": "^6.0.2"
   },
   "version": "0.1.0",
-  "devDependencies": {
-    "webpack-dev-server": "^3.8.0"
-  },
   "resolutions": {
     "dot-prop": "^5.1.1",
     "@rails/webpacker#babel-loader#mkdirp#minimist": ">=1.2.5",
