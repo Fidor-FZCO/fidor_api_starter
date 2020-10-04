@@ -34,3 +34,4 @@ gem install bundler
 bundle install
 bundle exec rails s -p port_number
 ```
+Node version required - 10.17.0
